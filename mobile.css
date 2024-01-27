@@ -1,0 +1,276 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 480px) {
+
+  main{
+    margin-bottom: 35%;
+  }
+
+  /* NAV BAR */
+  nav{
+    width: 85%;
+    height: 50px;
+    top: 10px;
+  }
+
+  .logo img{
+    width: 40px;
+  }
+
+  .drop-down-menu{
+    top: 65px;
+  }
+
+  .all-works-btn {
+    width: 80px; 
+    padding: 15px 50px;
+    font-size: 14px;
+
+  }
+
+  .app-card {
+    width: 75%;
+  }
+
+  /* LANDING PAGE */
+
+  .left-hero-sec{
+    width:100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .left-hero-sec,.right-hero-sec{
+    width:100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .right-hero-sec{
+    gap:25px
+  }
+
+  .hero-sec-logo{
+    width: 55%;
+  }
+
+  #company-name {
+    font-size: 19px;
+}
+
+  .right-sec1-heading > h2 {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 5px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+
+  .right-sec1-paragraph > p {
+    width: 100%;
+    font-size: 15px;
+}
+
+  /* PRIVACY POLICY */
+
+  .heading {
+    padding: 9%;
+    padding-top: 33%;
+    font-size: var(--step-10);
+  }
+  .privacy-policy {
+    width: 85%;
+  }
+
+  .paragraph, .paragraph a {
+    font-size: var(--step--10);
+  }
+
+  .small-heading{
+    font-size: var(--step--3);
+  }
+
+  .small-paragraph{
+    font-size: var(--step--10);
+  }
+
+  .semiline {
+    margin-top: 4%;
+}
+
+.semiline h4 {
+  color: var(--text-heading);
+  font-size: var(--step--3);
+}
+
+.ga-list {
+  font-size: var(--step--10);
+}
+
+  /* CONTACT US */
+  .contact-us-page {
+    width: 85%;
+  }
+
+  .contact-us-box,
+  .name-and-email {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .contact-us-des,
+  .contact-us-form {
+    width: 95%;
+    gap: 20px;
+    text-align: start;
+    
+  }
+
+  .contact-us-des{
+    margin-bottom: 10%;
+  }
+
+  #name,
+  #E-mail {
+    width: 100%;
+  }
+
+  #Submit span, #Reset span{
+    font-size: 14px;
+  }
+
+  #Submit img, #Reset img{
+    width: 22px;
+  }
+
+  .query-box{
+    margin-bottom: 20px;
+  }
+
+  .action-btn{
+    width: 100%;
+  }
+
+  #Submit,#Reset{
+    padding: 8px 19px;
+  }
+
+
+  /* FOOTER */
+  .footer-details {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px 0;
+  }
+
+  .company-logo > img {
+    width: 50px;
+}
+
+  .company-details,
+  .helpful-links,
+  .contact-us {
+    width: 100%;
+  }
+
+  .copyright img{
+    width: 15px
+  }
+
+  .copyright p{
+    font-size: 9px;
+  }
+  
+
+
+}
+
+@media (max-width: 375px) {
+  .hero-sec-logo {
+    width: 24%;
+}
+  .hero-sec-logo > img {
+    width: 86%;
+}
+  #company-name {
+    font-size: 14px;
+}
+}
+
+@media (max-width:356px){
+  .hero-section{
+    padding-top: 27%;
+  }
+  .hero-sec-logo{
+    width: 52%;
+  }
+  .hero-sec-logo >img{
+    width: 76%;
+  }
+  #company-name{
+    font-size: 17px;
+  }
+
+  .contact-us strong{
+    display: block;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .hero-section{
+    padding-top: 32%;
+  }
+  .hero-sec-logo{
+    width: 43%;
+  }
+  .hero-sec-logo >img{
+    width: 86%;
+  }
+  #company-name{
+    font-size: 18px;
+  }
+
+  .hero-sec-des{
+    gap:20px;
+  }
+
+  
+}

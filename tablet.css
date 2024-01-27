@@ -1,0 +1,317 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@media (max-width: 942px) {
+
+  .wrapper{
+      width: 80%;
+  }
+  #company-name{
+      font-size: var(--step--6);
+  }
+  
+  .right-sec1-heading >h2{
+      font-size: var(--step--4);
+  }
+  
+  .right-sec1-paragraph >p{
+      font-size: var(--step--9);
+  }
+  
+  .all-works-btn{
+      font-size: 10px;
+  }
+    .app-card {
+      width: 34%;
+    }
+  
+    /* CONTACT US */
+    .contact-us-box{
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      gap:20px;
+    }
+  
+    .contact-us-des{
+      width: 95%;
+      gap:10px;
+    }
+  
+    .contact-us-form{
+      width: 100%;
+    }
+
+    #Queries{
+      height: 186px;
+    }
+  }
+  
+  
+  @media (max-width: 915px) {
+    .app-card {
+      width: 35%;
+    }
+  }
+  
+  @media(max-width:879px){
+    .company-details {
+      width: 100%;
+    }
+  
+    .contact-us{
+      width: 47%;
+    }
+  
+    .helpful-links{
+      width: 42%;
+    }
+  }
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    /* NAV_BAR */
+    .nav-links {
+      display: none;
+    }
+  
+    .toggle-btn {
+      display: block;
+    }
+  
+    .drop-down-menu {
+      display: block;
+    }
+  
+    /* HERO_SECTION */
+    .hero-section{
+      padding-top: 25%;
+    }
+  
+    #company-name{
+      font-size: var(--step--8);
+    }
+  
+    .right-sec1-heading >h2 {
+      margin-bottom: 8px;
+    }
+  
+    .right-sec1-paragraph >p {
+      font-size: 12px;
+    }
+  
+    /* ALL WORKS BTN */
+  
+    .all-works-btn {
+      font-size: 10px;
+      width: 100px;
+    }
+  
+    .btn1 {
+      font-size: 14px;
+    }
+  
+    /* APP_CONTAINER */
+    .app-list-container {
+      gap: 20px;
+    }
+  
+    .app-card {
+      width: 39%;
+    }
+  
+    /* CONTACT US */
+  
+    .heading{
+      padding-top: 20%;
+    }
+  }
+  
+  @media(max-width:734px){
+    .heading{
+      padding-top: 20%;
+    }
+    .company-details {
+      width: 100%;
+    }
+  
+    .contact-us{
+      width: 57%;
+    }
+  
+    .helpful-links{
+      width: 35%;
+    }
+  }
+
+  @media(max-width:704px){
+    #company-name{
+      font-size: var(--step--10);
+    }
+  }
+  
+  @media(max-width:684px){
+  
+     /* CONTACT US */
+  
+     .heading{
+      padding-top: 25%;
+    }
+  
+    .contact-us-form{
+      padding: 2px;
+    }
+  
+    .name-and-email {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      gap:20px;
+      margin-bottom: 20px;
+  }
+  
+  #name,
+    #E-mail {
+      width: 100%;
+    }
+    .company-details {
+      width: 100%;
+    }
+  
+    .contact-us{
+      width: 58%;
+    }
+  
+    .helpful-links{
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 672px) {
+    nav {
+      width: 80%;
+    }
+  
+    .hero-section{
+      padding-top: 25%;
+    }
+  
+    #company-name{
+      font-size:12px;
+    }
+  
+    .right-sec1-heading >h2 {
+      margin-bottom: 5px;
+    }
+  
+    .right-sec1-paragraph >p {
+      font-size: 10px;
+    }
+  
+    .app-works {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 655px) {
+    .app-list-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+  
+    .app-card{
+      width: 50%;
+    }
+  }
+  
+  @media(max-width:582px){
+    #company-name{
+      font-size: 11px;
+  }
+
+    .company-details {
+      width: 100%;
+    }
+  
+    .contact-us{
+      width: 70%;
+    }
+  
+    .helpful-links{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .copyright img{
+        width: 20px
+    }
+    
+      .copyright p{
+        font-size: 12px;
+    }
+    
+  }
+  
+  
+  @media (max-width:540px){
+
+
+      .hero-sec-logo > img {
+          width: 68%;
+      }
+  
+      .right-sec1-heading > h2 {
+          font-size: 13px;
+          margin-bottom: 5px;
+      }
+      .right-sec1-paragraph > p {
+          font-size: 9px;
+      }
+  
+      .all-works-btn{
+          padding: 6px 30px;
+          font-size: 7px;
+          width: 100px;
+      }
+  
+  }
+  
+  @media(max-width:509px){
+      .app-card{
+          width: 55%;
+      }
+  
+      /* CONTACT US */
+  
+     .heading{
+      padding-top: 30%;
+    }
+      
+  }
+  
+  @media(max-width:486px){
+    #company-name{
+      font-size: 10px;
+    }
+  }
+  

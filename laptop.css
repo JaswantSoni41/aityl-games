@@ -1,0 +1,168 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* Media Queries for LAPTOPS */
+
+/* LAPTOP_1 */
+@media (max-width:1880px){
+  
+  .contact-us{
+    width: 24.22%;
+  }
+}
+
+@media (max-width:1681px){
+    .app-card{
+        width:21%;
+    }
+}
+
+@media (max-width:1584px) {
+
+  .company-details {
+    width: 33.64%;
+  }
+
+  .contact-us{
+    width: 27.22%;
+  }
+
+  .helpful-links{
+    width: 18%;
+  }
+  
+}
+
+@media (max-width:1440px){
+
+    .hero-section{
+        padding-top: 17%;
+    }
+
+    .hero-sec-logo > img{
+        width: 55%;
+    }
+
+    #company-name{
+        font-size: var(--step--3);
+    }
+    
+    .right-hero-sec{
+        gap: 6px;
+    }
+
+    .right-sec1-paragraph > p {
+        font-size: var(--step--5);
+    }
+
+    .app-card{
+        width: 23%;
+    }
+
+}
+
+@media (max-width:1378px) {
+
+  .company-details {
+    width: 37.64%;
+  }
+
+  .contact-us{
+    width: 29.22%;
+  }
+
+  .helpful-links{
+    width: 20%;
+  }
+  
+}
+
+@media(max-width:1288px){
+    .app-card{
+        width:31%
+    }
+}
+
+@media (max-width:1265px) {
+
+  .company-details {
+    width: 41.64%;
+  }
+
+  .contact-us{
+    width: 32.22%;
+  }
+
+  .helpful-links{
+    width: 18%;
+  }
+  
+}
+
+@media (max-width:1128px) {
+
+
+  .company-details {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact-us{
+    width: 40%;
+  }
+
+  .helpful-links{
+    width: 50%;
+  }
+  
+}
+
+/* LAPTOP_2 */
+@media (max-width:1024px){
+
+    .hero-section{
+        padding-top: 17%;
+    }
+
+    .hero-sec-logo > img{
+        width: 55%;
+    }
+
+    #company-name{
+        font-size: var(--step--6);
+    }
+    
+    .right-hero-sec{
+        gap: 6px;
+    }
+
+    .right-sec1-heading > h2{
+        font-size: var(--step--3);
+    }
+
+    .right-sec1-paragraph > p {
+        font-size: var(--step--8);
+    }
+
+    .all-works-btn{
+        padding: 8px 40px;
+    }
+
+    .app-card{
+        width: 32%;
+    }
+
+    .btn1{
+        padding: 8px 20px;
+    }
+
+    .contact-us-para {
+      font-size: var(--step--10);
+    }
+
+}
+ 
